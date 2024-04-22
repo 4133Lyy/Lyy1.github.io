@@ -1,0 +1,44 @@
+/*首页样式*/
+
+/* 版心居中 */
+.wrapper{
+    margin:0 auto;
+    width:1200px;
+}
+body{
+    background-color:#f3f5f7;
+}
+.header{
+    height:100px;
+    background-color:#fff;
+}
+.header .wrapper{
+    padding-top:29px;
+    display:flex;
+}
+.logo a{
+    display:block;
+    width:195px;
+    height:41px;
+    font-size:0;
+    background-image:url(../img/logo.png);
+}
+.nav{
+    margin-left:102px;
+}
+.nav ul{
+    display:flex;
+}
+.nav li{
+    margin-right:32px;
+}
+.nav li a{
+    display:block;
+    padding:6px 8px;
+    line-height:27px;
+    font-size:19px;
+}
+.nav li .active,
+.nav li a:hover{
+    border-bottom:2px solid  #00a4ff;
+}
